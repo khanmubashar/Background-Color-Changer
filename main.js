@@ -3,12 +3,10 @@ const btn = document.getElementById('changecolorbtn');
 btn.addEventListener('click', changeColor);
 
 function changeColor() {
-  debugger;
   const colorText = document.querySelector('.colorcontainer_colortitle');
   const backgroundColor = document.querySelector('.colorcontainer');
   backgroundColor.style.background = getRandomColor();
   colorText.innerText = getRandomColor();
-
 }
 
 function getRandomColor() {
