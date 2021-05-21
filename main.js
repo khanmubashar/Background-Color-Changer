@@ -18,3 +18,7 @@ function getRandomColor() {
 
   return color;
 }
+
+function divide(a, b) {
+  return a / b;
+}
